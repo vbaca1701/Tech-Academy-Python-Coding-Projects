@@ -1,0 +1,60 @@
+.radio{
+	text-align: left;
+	line-height: 16px;
+}
+
+.form-check{
+	text-align: left;
+}
+
+.container .text-center{
+	width: 50%;
+}
+
+.container .border{
+	width: 400px;
+	background-color: #b20000;
+	border-radius: 25px;
+}
+
+body{
+	background-color: #cccccc;
+}
+
+h1{
+	color: #000;
+	background-color: #b20000;
+	text-shadow: 3px 3px 3px #4c4c4c;
+	font-size: 50pt;
+}
+h2{
+	text-decoration: underline;
+	text-shadow: 1px 1px #4c4c4c;
+	color: #000;
+}
+label{
+	color: #000;
+	font-size: 16pt;
+}
+
+#order-btn{
+	background-color: #207068;
+	color: #fff;
+}
+
+#order-box{
+	opacity: 0;
+	width: 900px;
+	background-color: #00a7b3;
+	border-radius: 7px;
+}
+
+.ingred{
+	line-height: 1em;
+	display: none;
+}
+
+.price{
+	line-height: 1em;
+	margin-bottom: 8px;
+}

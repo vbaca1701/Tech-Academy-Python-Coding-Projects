@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Mama Mia Pizzeria!</title> 
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/pizza.css">
+	</head>
+	<body>
+		<h1 class="text-center">Mama Mia Pizzeria</h1>
+		
+	<!--Selection Menu-->
+	<div class="container text-center">
+		<div class="row">
+		<!--Radioboxes-->
+			<div class="col-sm pr-0">
+				<div class="container border" id="sizes">
+					<h2>Size</h2>
+					<div class="radio">
+						<label><input type="radio" name="size" id="personal" checked>Personal Pan</label>
+					</div>
+					<div class="radio">
+						<label id="med"><input type="radio" name="size" id="medium">Medium Pizza</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="size" id="large">Large Pizza</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="size" id="extra-large">XL Pizza</label>
+					</div>
+				</div>
+				<div class="container border" id="cheeses">
+					<h2>Cheese</h2>
+					<div class="radio">
+						<label><input type="radio" name="cheese" id="regular-cheese"checked>Regular</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="cheese" id="no-cheese">No Cheese</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="cheese" id="extra-cheese">Extra Cheese</label>
+					</div>
+				</div>
+				<div class="container border" id="sauces">
+					<h2>Sauce</h2>
+					<div class="radio">
+						<label><input type="radio" name="sauce" id="marinara-sauce" checked>Marinara</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="sauce" id="white-sauce">White</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="sauce" id="bbq-sauce">BBQ</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="sauce" id="no-sauce">No Sauce</label>
+					</div>
+				</div>
+				<div class="container border" id="crusts">
+					<h2>Crust</h2>
+					<div class="radio">
+						<label><input type="radio" name="crust" id="plain" checked>Plain</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="crust" id="garlic">Garlic Butter</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="crust" id="cheese-stuffed">Cheese Stuffed</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="crust" id="spicy">Spicy</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="crust" id="special">House Special</label>
+					</div>
+				</div>
+			</div>
+			<!--/Radioboxes -->
+			<!--Checkboxes-->
+			<div class="col-sm pl-0">
+			<div class="col-sm pl-0">
+				<div class="container border" id="meats">
+					<h2>Meats</h2>
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input" name="meat" id="pepperoni">Pepperoni
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input" name="meat" id="sausage">Sausage
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input" name="meat" id="bacon">Canadian Bacon
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input" name="meat" id="beef">Ground Beef
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input" name="meat" id="anchovy">Anchovies
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input" name="meat" id="chicken">Chicken
+						</label>
+					</div>
+				</div>
+				<div class="container border" id="veggies">
+					<h2>Veggies</h2>
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input" name="veg" id="tomatoes">Tomatoes
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input" name="veg" id="onions">Onions
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input" name="veg" id="olives">Olives
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input" name="veg" id="peppers">Green Peppers
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input" name="veg" id="mushrooms">Mushrooms
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input" name="veg" id="pineapple">Pineapple
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input" name="veg" id="spinach">Spinach
+						</label>
+					</div>
+					<div class="form-check disabled">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input" name="veg" id="jalapenos">Jalapenos
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="container text-center mt-5">
+			<button type="button" id="order-btn" class="btn btn-lg" onclick="order()">Submit Order!</button>
+			<button type="button" class="btn btn-secondary btn-lg" onclick="cancel()">Cancel order</button>
+		</div>
+		<!---Order Total-->
+		<div class="container text-left mt-5" id="order-box">
+			<div class="container total">
+				<div class="row">
+					<div class="col-sm pr-0">
+						<h3 >Ingredients:</h3>
+						<p class="ingred" id="personal-order">Personal Pan</p>
+						<p class="ingred" id="medium-order">Medium Size</p>
+						<p class="ingred" id="large-order">Large Size</p>
+						<p class="ingred" id="extra-large-order">XL Size</p>
+						<p class="ingred" id="regular-cheese-order">Regular Cheese</p>
+						<p class="ingred" id="no-cheese-order">No Cheese</p>
+						<p class="ingred" id="extra-cheese-order">Extra Cheese</p>
+						<p class="ingred" id="marinara-sauce-order">Marinara</p>
+						<p class="ingred" id="white-sauce-order">White</p>
+						<p class="ingred" id="bbq-sauce-order">BBQ Sauce</p>
+						<p class="ingred" id="no-sauce-order">No Sauce</p>
+						<p class="ingred" id="plain-order">Plain Crust</p>
+						<p class="ingred" id="garlic-order">Garlic Butter Crust</p>
+						<p class="ingred" id="cheese-stuffed-order">Cheese Stuffed Crust</p>
+						<p class="ingred" id="spicy-order">Spicy Crust</p>
+						<p class="ingred" id="special-order">House Special Crust</p>
+						<p class="ingred" id="pepperoni-order">Pepperoni</p>
+						<p class="ingred" id="sausage-order">Sausage</p>
+						<p class="ingred" id="bacon-order">Canadian Bacon</p>
+						<p class="ingred" id="beef-order">Ground Beef</p>
+						<p class="ingred" id="anchovy-order">Anchovies</p>
+						<p class="ingred" id="chicken-order">Chicken</p>
+						<p class="ingred" id="tomatoes-order">Tomatoes</p>
+						<p class="ingred" id="onions-order">Onions</p>
+						<p class="ingred" id="olives-order">Olives</p>
+						<p class="ingred" id="peppers-order">Green Peppers</p>
+						<p class="ingred" id="mushrooms-order">Mushrooms</p>
+						<p class="ingred" id="pineapple-order">Pineapple</p>
+						<p class="ingred" id="spinach-order">Spinach</p>
+						<p class="ingred" id="jalapeno-order">Jalapenos</p>
+						<h3>Total Price:</h3>
+					</div>
+					<div class="col-sm pl-0">
+						<h3>Order Total:</h3>
+						<p class="price" id="size-total"></p>
+						<p class="price" id="cheese-total"></p>
+						<p class="price" id="sauce-total"></p>
+						<p class="price" id="crust-total"></p>
+						<p class="price" id="pepperoni-total"></p>
+						<p class="price" id="sausage-total"></p>
+						<p class="price" id="bacon-total"></p>
+						<p class="price" id="beef-total"></p>
+						<p class="price" id="anchovy-total"></p>
+						<p class="price" id="chicken-total"></p>
+						<p class="price" id="tomatoes-total"></p>
+						<p class="price" id="onions-total"></p>
+						<p class="price" id="olives-total"></p>
+						<p class="price" id="pepper-total"></p>
+						<p class="price" id="mushrooms-total"></p>
+						<p class="price" id="pineapple-total"></p>
+						<p class="price" id="spinach-total"></p>
+						<p class="price" id="jalepeno-total"></p>
+						<h3 id="total-calculation"></h3>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/pizzaexercise.js"></script>
+</html>
